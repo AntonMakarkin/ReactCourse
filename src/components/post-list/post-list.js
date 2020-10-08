@@ -1,6 +1,6 @@
 import React from 'react';
 import PostListItem from '../post-list-item';
-import './post-list.css'
+import './post-list.css';
 
 const PostList = ({posts, onDelete}) => {
 
@@ -13,7 +13,7 @@ const PostList = ({posts, onDelete}) => {
                     onDelete={() => onDelete(id)}/> 
             </li>
         )
-    })
+    });
 
     return (
         <ul className="app-list list-group">
